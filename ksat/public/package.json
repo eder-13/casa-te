@@ -1,0 +1,21 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "build-css": "tailwindcss build src/tailwind.css -o styles/styles.module.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.5.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "tailwindcss": "^1.8.12"
+  }
+}
